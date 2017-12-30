@@ -16,7 +16,7 @@ import utils.WebDriverUtils;
 public class FirstTestNGTest {
 	private static final String ACTUAL_RESULT = "Actual Result = ";
 
-	@Test(priority = 0)
+	@Test(priority = 1)
 	public void login() {
 		System.setProperty("webdriver.chrome.driver", "tools/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();

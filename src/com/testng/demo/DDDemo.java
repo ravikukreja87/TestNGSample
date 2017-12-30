@@ -49,9 +49,9 @@ public class DDDemo {
 	public Object[][] testData() {
 		return new Object[][] { new Object[] { "techcanvassacademy@techcanvass.co.in", "abhishek1234", "Employee" },
 				new Object[] { "techcanvassuser@techcanvass.co.in", "user1234", "Student" },
-				new Object[] { "techcanvassuser@techcanvass.co.in", "user1234", "" }, 
-				new Object[] { "techcanvassuser@techcanvass.co.in", "user123", "" }, 
-						
+				new Object[] { "techcanvassuser@techcanvass.co.in", "user1234", "" },
+				new Object[] { "techcanvassuser@techcanvass.co.in", "user123", "" },
+
 		};
 	}
 }
