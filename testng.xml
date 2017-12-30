@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Test NG Suite for ME">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.testng.demo.MultipleAnno"/>
+      <class name="com.testng.demo.FirstTestNGTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
